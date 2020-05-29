@@ -15,8 +15,8 @@
 </head>
 
 <body>
-	<div class="bg-gradient">
-		<header class="row wrapper">
+	<header class="bg-gradient">
+		<div class="row">
 			<div class="col-sm-12 col-lg-2">
 				<h1><i></i><!--font awesome icon-->Edumark</h1>
 			</div>
@@ -36,23 +36,23 @@
 			<div class="col-sm-6 col-lg-2">
 				<p> <a href="#"> call</a></p>
 			</div>
-		</header>
-		<div class="row">
+		</div>
+		<div class="row wrapper">
 			<div id="hero" class="col-sm-12 col-md-6"></div> <!--hero illustration here -->
 			<div class="col-sm-12 col-md-6">
 				<p>learn your favorite course from online</p>
 				<p> <a href="#">browse our courses</a></p>
 			</div>
 		</div>
-	</div>
+	</header>
 	
-	<div class="wrapper row">
-		<section class="col-sm-12 col-lg-6">
-			<p>over 7,000 tutorials from 20 courses</p>
+	<section class="wrapper row">
+		<div class="col-sm-12 col-lg-6">
+			<header> <h2>over 7,000 tutorials from 20 courses</h2></header> 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 			<p> <a href="#">browse our courses</a></p>
-		</section>
-		<section class="row">
+		</div>
+		<div class="row col-lg-6">
 			<div id="orange-circ" class="col-sm-12 col-md-4">
 				<p><span>20+</span><br>courses</p>
 			</div>
@@ -62,107 +62,138 @@
 			<div id="teal-circ" class="col-sm-12 col-md-4">
 				<p><span>230+</span><br>courses</p>
 			</div>
-		</section>
+		</div>
 		
-	</div>
+	</section>
 	
 	<section class="wrapper">
-		<header>
+		<header class="col-sm-12 col-md-4">
 			<h2>Popular Courses</h2>
 			<p>Your domain control panel is designed for ease-of-use and allows for all aspects of your domains.</p>
 		</header>
-		<section class="row">
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div id="bg-photoshop"></div><!--image-->
-				<p>Photoshop<br><span>Mobile App design step by step from beginner</span></p>
-				<ul>
-					<li>(4.5)</li>
-					<li>$89.00</li>
-					<li>$49</li>
-				</ul>	
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div id="bg-adobe"></div><!--image-->
-				<p>Adobe XD<br><span>UI/UX design with Adobe XD with Anderson</span></p>
-				<ul>
-					<li>(4.5)</li>
-					<li>$89.00</li>
-					<li>$49</li>
-				</ul>	
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div id="bg-wordpress"></div><!--image-->
-				<p>Wordpress<br><span>Wordpress theme development from scratch</span></p>
-				<ul>
-					<li>(4.5)</li>
-					<li>$89.00</li>
-					<li>$49</li>
-				</ul>	
-			</div>
-		</section>
+		<div class="row">
+			<section class="col-sm-12 col-md-6 col-lg-4">
+				<div id="bg-photoshop"></div><!--put image in through html instead!-->
+				<div>
+					<p>Photoshop</p>
+					<p>Mobile App design step by step from beginner</p>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-8">
+						<p>(4.5)</p>
+					</div>
+					<div class="col-sm-2">
+						<p>89.00</p>
+					</div>
+					<div class="col-sm-2">
+						<p>$49</p>
+					</div>
+				</div>	
+			</section>
+			
+			<section class="col-sm-12 col-md-6 col-lg-4">
+				<div id="bg-adobe"></div><!--put image in through html instead!-->
+				<div>
+					<p>Adibe XD</p>
+					<p>Mobile App design step by step from beginner</p>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-8">
+						<p>(4.5)</p>
+					</div>
+					<div class="col-sm-2">
+						<p>89.00</p>
+					</div>
+					<div class="col-sm-2">
+						<p>$49</p>
+					</div>
+				</div>	
+			</section>
+			
+			<section class="col-sm-12 col-md-6 col-lg-4">
+				<div id="bg-wordpress"></div><!--put image in through html instead!-->
+				<div>
+					<p>Wordpress</p>
+					<p>Mobile App design step by step from beginner</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-8">
+						<p>(4.5)</p>
+					</div>
+					<div class="col-sm-2">
+						<p>89.00</p>
+					</div>
+					<div class="col-sm-2">
+						<p>$49</p>
+					</div>
+				</div>	
+			</section>
+
+		</div>
 		<p> <a href="#">more courses</a></p>
 	</section>
 	
 	
-	<div id="bg-desk" class="col-sm-12"><!--image-->
-		<section class="wrapper">
+	<div id="bg-desk"><!--image-->
+		<div class="wrapper">
 			<div id="jquileen"></div> <!--image-->
-			<blockquote>
+			<blockquote class="col-sm-12">
 				<p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate human suffering."</p>
-				<p>-Jquilleen</p>
+				<footer>&emdash;Jquilleen</footer>
 			</blockquote>
-		</section>
+		</div>
 	</div>
 	
 	<div class="wrapper">
-		<header>
+		<header class="col-sm-12">
 			<h2>our course specialty</h2>
 			<p>Your domain control panel is designed for ease-of-use and allows for all aspects of your domains.</p>
 		</header>
-		<section class="row">
-			<div class="col-sm-12 col-md-6 col-lg-3">
+		<div class="row">
+			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
 					<i></i> <!--font awesome icon-->
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-3">
+			</section>
+			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
 					<i></i> <!--font awesome icon-->
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-3">
+			</section>
+			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
 					<i></i> <!--font awesome icon-->
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-3">
+			</section>
+			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
 					<i></i> <!--font awesome icon-->
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
-			</div>
-		</section>
+			</section>
+		</div>
 	</div>
 	
-	<section id="bg-teal" class="col-sm-12">
+	<section id="bg-teal">
 		<div class="wrapper row">
-			<div class="col-sm-12 col-lg-6">
-				<p>Subscribe Newsletter</p>
+			<header class="col-sm-12 col-lg-6">
+				<h2>Subscribe Newsletter</h2>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of your</p>
-			</div>
-			<div class="col-sm-12 col-lg-6">
-				<p>Your domain control panel is</p>
-				<form>
-				<!--insert email form here-->
-				</form>
-			</div>
+			</header>
+			<form class="col-sm-12 col-lg-6">
+				<label for="idvalue">Your domain control panel is</label>
+				<input type="email" name="email" id="idvalue">
+				<p> <a href="#">sign up</a></p>
+			</form>
 			
 		</div>
 	</section>
@@ -173,30 +204,30 @@
 		</header>
 		<div class="row">
 			<div class="col-sm-12 col-md-4">
-				<div id="bg-commit"></div> <!--image here-->
-				<header>
-					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
-					<h4>commitment to dedicated support</h4>
-				</header>
-				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				<div id="bg-commit"></div> <!--place image through html instead-->
+				<div>
+					<p><time datetime="2019-6-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<p>commitment to dedicated support</p>
+					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				</div>
 			</div>
 			
 			<div class="col-sm-12 col-md-4">
-				<div id="bg-commit2"></div> <!--image here-->
-				<header>
-					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
-					<h4>commitment to dedicated support</h4>
-				</header>
-				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				<div id="bg-commit2"></div> <!--place image through html instead-->
+				<div>
+					<p><time datetime="2019-6-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<p>commitment to dedicated support</p>
+					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				</div>
 			</div>
 			
 			<div class="col-sm-12 col-md-4">
-				<div id="bg-commit3"></div> <!--image here-->
-				<header>
-					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
-					<h4>commitment to dedicated support</h4>
-				</header>
-				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				<div id="bg-commit3"></div> <!--place image through html instead-->
+				<div>
+					<p><time datetime="2019-6-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<p>commitment to dedicated support</p>
+					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				</div>
 			</div>
 
 		</div>
@@ -204,7 +235,7 @@
 	
 	<footer class="bg-gradient">
 		<div class="wrapper row">
-			<section class="col-sm-12 col-md-6 col-lg-3">
+			<div class="col-sm-12 col-md-6 col-lg-3">
 				<p><i></i> <!--font awesome logo-->Edumark</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu</p>
 				<ul>
@@ -213,9 +244,9 @@
 					<li><i></i></li><!--font awesome icon-->
 					<li><i></i></li><!--font awesome icon-->
 				</ul>
-			</section>
+			</div>
 			<section class="col-sm-4 col-md-6 col-lg-3">
-				<h5>courses</h5>
+				<h4>courses</h4>
 				<ul>
 					<li><a href="#">wordpress</a></li>
 					<li><a href="#">photoshop</a></li>
@@ -225,7 +256,7 @@
 				</ul>
 			</section>
 			<section class="col-sm-4 col-md-6 col-lg-3">
-				<h5>Resources</h5>
+				<h4>Resources</h4>
 				<ul>
 					<li><a href="#">free adobe XD</a></li>
 					<li><a href="#">tutorials</a></li>
@@ -234,13 +265,18 @@
 					<li><a href="#">contact</a></li>
 				</ul>
 			</section>
-			<address class="col-sm-4 col-md-6 col-lg-3">
-				<h5>Address</h5>
-				<p>200, D-Block, Green<br>lane USA</p>
-				<p>+10 367 467 8934</p>
-				<p>edumark@contact.com</p>
-			</address>
+			<section class="col-sm-4 col-md-6 col-lg-3">
+				<h4>Address</h4>
+				<address>
+					<p><a href="https://www.google.com/maps">200, D-Block, Green<br>lane USA</a></p>
+					<p><a href="tel:+103674678934">+10 367 467 8934</a></p>
+					<p><a href="mailto:edumark@contact.com">edumark@contact.com</a></p>
+				</address>
+			</section>
 
+		</div>
+		<div>
+			<p>copyright &copy;2020 all rights reserved &vert; This template is made with <i></i> by <span>Colorlib.</span></p>
 		</div>
 	</footer>
 	

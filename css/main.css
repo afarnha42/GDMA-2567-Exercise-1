@@ -51,13 +51,33 @@
 /*--------------------------------------------------------------
 3.0 - GENERIC
 -------------------------------------------------------------- */
+html {
+	font-size: 9pt;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+}
+
 
 /*--------------------------------------------------------------
 4.0 - ELEMENTS
 -------------------------------------------------------------- */
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 2.25em;
+}
 /* -- FORMS -- */
 
 /* -- LISTS -- */
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -81,6 +101,9 @@
 
 
 /* -- TYPOGRAPHY-- */
+#hero-type {
+	font-size: 1.5rem;
+}
 
 
 /* -- LAYOUT -- */
@@ -88,23 +111,108 @@
 
 
 /* -- BUTTONS -- */
+.btn {
+	padding: 1em 2.5em;
+	-webkit-border-radius: 6rem;
+	-ms-border-radius: 6rem;
+	-o-border-radius: 6rem;
+	-moz-border-radius: 6rem;
+	border-radius: 6rem;
+	
+	color: #fff;
+}
+
 
 
 /* -- HEADER -- */
+header {
+	color: #fff;
+}
+header nav li{
+	display: inline-block;
+	margin-right: 3em;
+}
+
+header nav li:last-child {
+	margin-right: 0;
+}
+
+h2 {
+	color: #2e004b;
+	font-size: 1.5rem;
+	display: block;
+}
+
 
 /* -- NAVIGATION -- */
 
 
+/* -- IMAGES --*/
+
+
+.bg-gradient {
+	background: rgb(78,57,211);
+background: -webkit-linear-gradient(bottom, rgba(78,57,211,1) 0%, rgba(156,74,235,1) 63%);
+background: -o-linear-gradient(bottom, rgba(78,57,211,1) 0%, rgba(156,74,235,1) 63%);
+background: linear-gradient(to top, rgba(78,57,211,1) 0%, rgba(156,74,235,1) 63%);
+}
+
+#bg-hero {
+	background: url("../img/hero.jpg") no-repeat scroll; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+
+#bg-desk {
+	background: url("../img/bg-desk.jpg") no-repeat scroll; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+}
 /*--------------------------------------------------------------
 7.0 - UTILITIES
 -------------------------------------------------------------- */
 
 
 /* -- ALIGNMENT -- */
+header div div, nav ul {
+	text-align: center;
+}
 
 
 /* -- COLOR -- */
+h1, li {
+	color: #fff;
+}
 
+.fa-star, .fa-gem, .fa-crown {
+	color: #fd8e5e;
+}
+
+.teal {
+	background-color: #03d2c8;
+}
+
+.orange {
+	background-color: #fcae5c;
+}
+
+.white {
+	background-color: #fff;
+	color: #03d2c8;
+	border-style: solid;
+	border-color: #03d2c8;
+}
+
+#courses p:first-child {
+	color: #727189;
+}
 /* -- SIZE -- */
 
 

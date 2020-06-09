@@ -52,7 +52,7 @@
 3.0 - GENERIC
 -------------------------------------------------------------- */
 html {
-	font-size: 9pt;
+	font-size: 10pt;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: capitalize;
 }
@@ -69,7 +69,11 @@ p {
 	font-size: 1rem;
 	line-height: 2.25em;
 }
+
 /* -- FORMS -- */
+form label {
+	font-size: 1.25rem;
+}
 
 /* -- LISTS -- */
 ul {
@@ -78,6 +82,9 @@ ul {
 	margin: 0;
 }
 
+h3 {
+	color: #727272;
+}
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -98,16 +105,74 @@ ul {
 /*--------------------------------------------------------------
 6.0 - COMPONENTS
 -------------------------------------------------------------- */
-
-
+input, form p, header nav li, #pages li,footer li, #bg-desk img {
+	display: inline-block;
+} 
 /* -- TYPOGRAPHY-- */
+time {
+	color: #4c4c76;
+}
+
+#blog header a {
+	color: #03d2c8;
+}
 #hero-type {
 	font-size: 1.5rem;
 }
 
+#blog h3 {
+	font-size: 1.25rem;
+}
+
+#pages h3 {
+	padding-left: 0;
+	text-align: left;
+	padding-bottom: 1em;
+	
+}
+
+#about section, #pages h3 {
+	border-bottom: solid thin #e8e8e8;
+} 
+h2 {
+	color: #2e004b;
+	font-size: 1.5rem;
+	display: block;
+}
+
+header div div, nav ul, #circle p, #pages>p:last-of-type, #about, #pages header, #bg-desk footer p {
+	text-align: center;
+}
+
+#courses p:first-child {
+	color: #727189;
+}
+
+#courses header {
+	padding-top: 4em;
+}
+
+#courses>div:first-child {
+	padding: 1em 0;
+}
+
+
+.fa-star, .fa-gem, .fa-crown {
+	color: #fd8e5e;
+}
+
+.fa-hands-wash {
+	color: #60dfd8;
+}
+
+.fa-birthday-cake {
+	color: #d465ee;
+}
+.fa-book-open {
+	color: #05d4ca;
+}
 
 /* -- LAYOUT -- */
-
 
 
 /* -- BUTTONS -- */
@@ -118,33 +183,36 @@ ul {
 	-o-border-radius: 6rem;
 	-moz-border-radius: 6rem;
 	border-radius: 6rem;
-	
-	color: #fff;
+
 }
 
 
 
 /* -- HEADER -- */
-header {
-	color: #fff;
-}
+
 header nav li{
-	display: inline-block;
-	margin-right: 3em;
+	margin-right: 1.25em;
+	margin-bottom: 1em;
+	
+}
+
+nav a:hover {
+	border-bottom: solid #03d2c8;
 }
 
 header nav li:last-child {
 	margin-right: 0;
 }
 
-h2 {
-	color: #2e004b;
-	font-size: 1.5rem;
-	display: block;
-}
+
 
 
 /* -- NAVIGATION -- */
+
+header nav {
+	font-size: 1.25rem;
+	padding: .5em;
+}
 
 
 /* -- IMAGES --*/
@@ -174,6 +242,108 @@ background: linear-gradient(to top, rgba(78,57,211,1) 0%, rgba(156,74,235,1) 63%
 	-ms-background-size: cover;
 	background-size: cover;
 }
+
+#bg-desk footer p {
+	font-size: 1rem;
+	padding-bottom: 4em;
+}
+
+blockquote img {
+	margin-top: 4em;
+}
+
+#bg-teal {
+	background-color: #03d2c8;
+	
+}
+
+
+
+.circ {
+	width: 350px;
+	height: 350px;
+	-web-kit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	opacity: .8;
+}
+
+#circle p{
+	padding-top: 4em;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #fff;
+}
+
+#circle p span {
+	font-size: 6rem;
+	color: #fff;
+}
+
+
+#pages p, #pages li:first-child {
+	color: #727272;
+}
+
+#pages li {
+	padding-top: 1.5rem;
+}
+
+#pages li:first-child {
+	text-decoration: line-through;
+}
+#pages li:last-child {
+	color: #1e1e1e;
+}
+
+#pages>p a:hover {
+	background-color: #fcae5c;
+	border: none;
+	color: #fff;
+}
+#jquileen {
+	width: 100px;
+	height: 100px;
+	-web-kit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+#about p {
+	color: #727272;
+}
+
+
+footer p:first-of-type {
+	font-size: 2rem;
+}
+
+#address p:first-of-type {
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+
+
+
+footer ul:nth-child(2) li, footer ul:nth-child(3) li {
+	padding-right: 1em;
+}
+footer h4 {
+	font-size: 1.5rem;
+}
+
+
+
+footer div:last-of-type {
+	font-size: 1rem;
+}
+#address address{
+	font-size: 1rem;
 }
 /*--------------------------------------------------------------
 7.0 - UTILITIES
@@ -181,26 +351,34 @@ background: linear-gradient(to top, rgba(78,57,211,1) 0%, rgba(156,74,235,1) 63%
 
 
 /* -- ALIGNMENT -- */
-header div div, nav ul {
-	text-align: center;
-}
+
 
 
 /* -- COLOR -- */
-h1, li {
+
+
+h1, li, .fa-user, .fa-phone-alt, .btn, header, nav a, #bg-teal, footer, #bg-teal h2, #circle p, #login a, #circle p {
 	color: #fff;
 }
 
-.fa-star, .fa-gem, .fa-crown {
-	color: #fd8e5e;
+#login a:hover {
+	color: #fcae5c;
+}
+
+.blue {
+	background-color: #8ec9ff;
 }
 
 .teal {
-	background-color: #03d2c8;
+	background-color: #60dfd8;
 }
 
-.orange {
+.orange, form p {
 	background-color: #fcae5c;
+}
+
+form p a{
+	padding: .1em;
 }
 
 .white {
@@ -210,9 +388,7 @@ h1, li {
 	border-color: #03d2c8;
 }
 
-#courses p:first-child {
-	color: #727189;
-}
+
 /* -- SIZE -- */
 
 

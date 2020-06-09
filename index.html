@@ -18,7 +18,7 @@
 	<header class="bg-gradient">
 		<div class="row">
 			<div class="col-sm-12 col-lg-2">
-				<h1><i class="fas fa-book-open" style="color: #05d4ca;"></i>Edumark</h1>
+				<h1><i class="fas fa-book-open"></i>Edumark</h1>
 			</div>
 			<nav class="col-sm-12 col-lg-6">
 				<ul>
@@ -30,15 +30,15 @@
 					<li><a href="#address">contact</a></li>
 				</ul>
 			</nav>
-			<div class="col-sm-6 col-lg-2">
-				<p> <a href="#"><i class="fas fa-user" style="color: #fff;"></i> log in</a></p>
+			<div class="col-sm-6 col-lg-2" id="login">
+				<p> <a href="#"><i class="fas fa-user"></i> log in</a></p>
 			</div>
 			<div class="col-sm-6 col-lg-2">
-				<p> <a href="tel:+103674678934" class="btn orange"><i class="fas fa-phone-alt" style="color: #fff;"></i>+10 367 467 8934</a></p>
+				<p> <a href="tel:+103674678934" class="btn orange"><i class="fas fa-phone-alt"></i>+10 367 467 8934</a></p>
 			</div>
 		</div>
 		<div class="row wrapper">
-			<div class="col-sm-12 col-md-6 img-responsive"><img src="img/hero.jpg" alt="" data-rjs="2" class="img-responsive"></div>
+			<div class="col-sm-12 col-md-6"><img src="img/hero.jpg" alt="" data-rjs="2" class="img-responsive"></div>
 			<div class="col-sm-12 col-md-6">
 				<p id="hero-type">learn your favorite course from online</p>
 				<p> <a href="#" class="btn teal">browse our courses</a></p>
@@ -48,21 +48,21 @@
 	
 	<section id="courses" class="wrapper row">
 		<div class="col-sm-12 col-lg-6">
-			<header class="col-sm-6">
-				<h2>over 7,000 tutorials from 20 courses</h2>
-			</header><br>
+			<header>
+				<h2>over 7,000 tutorials<br>from 20 courses<br></h2>
+			</header>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 			<p> <a href="#" class="btn teal">browse our courses</a></p>
 		</div>
-		<div class="row col-lg-6">
-			<div id="orange" class="circ col-sm-12 col-md-4">
+		<div id="circle">
+			<div class="col-sm-12 col-md-4 circ orange">
 				<p><span>20+</span><br>courses</p>
 			</div>
-			<div id="blue" class="circ col-sm-12 col-md-4">
-				<p><span>7638</span><br>courses</p>
+			<div class="col-sm-12 col-md-4 circ blue">
+				<p><span>20+</span><br>courses</p>
 			</div>
-			<div id="teal" class="circ col-sm-12 col-md-4">
-				<p><span>230+</span><br>courses</p>
+			<div class="col-sm-12 col-md-4 circ teal">
+				<p><span>20+</span><br>courses</p>
 			</div>
 		</div>
 		
@@ -150,10 +150,12 @@
 	
 	<div id="bg-desk">
 		<div class="wrapper">
-			<blockquote class="col-sm-12 col-md-8 col-lg-6">
-				<img src="img/jquileen.jpg" alt="photo of jquileen" data-jrs="2" class="img-responsive">
+			<blockquote>
+				<img id="jquileen" src="img/jquileen.jpg" alt="photo of jquileen" data-jrs="2" width="100" class="col-sm-12 col-md-6 col-lg-4 img-responsive">
 				<p>"Working in conjunction with humanitarian aid agencies we have supported programmes to alleviate human suffering."</p>
-				<footer><p>&emdash;Jquilleen</p></footer>
+				<footer>
+					<p>&mdash;Jquilleen</p>
+				</footer>
 			</blockquote>
 		</div>
 	</div>
@@ -166,28 +168,28 @@
 		<div class="row">
 			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
-					<i class="far fa-gem"></i>
+					<i class="fas fa-gem fa-3x"></i>
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
 			</section>
 			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
-					<i class="fas fa-hands-wash"></i>
+					<i class="fas fa-hands-wash fa-3x"></i>
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
 			</section>
 			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
-					<i class="fas fa-crown"></i>
+					<i class="fas fa-crown fa-3x"></i>
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
 			</section>
 			<section class="col-sm-12 col-md-6 col-lg-3">
 				<header>
-					<i class="fas fa-birthday-cake"></i>
+					<i class="fas fa-birthday-cake fa-3x"></i>
 					<h3>Premium Quality</h3>
 				</header>
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of</p>
@@ -202,7 +204,7 @@
 				<p>Your domain control panel is designed for ease-of-use <br>and<br>allows for all aspects of your</p>
 			</header>
 			<form class="col-sm-12 col-lg-6">
-				<label for="idvalue">Your domain control panel is</label>
+				<label for="idvalue">Your domain control panel is<br></label>
 				<input type="email" name="email" id="idvalue">
 				<p> <a href="#">sign up</a></p>
 			</form>
@@ -216,36 +218,35 @@
 		</header>
 		<div class="row">
 			<section class="col-sm-12 col-md-4">
-				<div>
-					<img src="img/commit.jpg" alt="" class="img-responsive" data-rjs="2">
-					<header>
-						<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
-						<h3>commitment to dedicated support</h3>
-					</header>
-					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
-				</div>
+				<img src="img/commit.jpg" alt="" class="img-responsive" data-rjs="2">
+				<header>
+					<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<h3>commitment to dedicated support</h3>
+				</header>
+				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+			
 			</section>
 			
 			<section class="col-sm-12 col-md-4">
-				<div>
-					<img src="img/commit_2.jpg" alt="" class="img-responsive" data-rjs="2">
-					<header>
-						<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
-						<h3>commitment to dedicated support</h3>
-					</header>
-					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
-				</div>
+				
+				<img src="img/commit_2.jpg" alt="" class="img-responsive" data-rjs="2">
+				<header>
+					<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<h3>commitment to dedicated support</h3>
+				</header>
+				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+				
 			</section>
 			
 			<section class="col-sm-12 col-md-4">
-				<div>
-					<img src="img/commit_3.jpg" alt="" class="img-responsive" data-rjs="2">
-					<header>
-						<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
-						<h3>commitment to dedicated support</h3>
-					</header>
-					<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
-				</div>
+
+				<img src="img/commit_3.jpg" alt="" class="img-responsive" data-rjs="2">
+				<header>
+					<p><time datetime="2019-06-12">12 Jun, 2019</time>in <a href="#">Design tips</a></p>
+					<h3>commitment to dedicated support</h3>
+				</header>
+				<p>Firmament morning sixth subdye darkeness creeping gathered divide.</p>
+
 			</section>
 
 		</div>
@@ -257,10 +258,10 @@
 				<p><i class="fas fa-book-open"></i>Edumark</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fu</p>
 				<ul>
-					<li><i class="fab fa-facebook-square"></i></li><!--font awesome icon-->
-					<li><i class="fab fa-twitter-square"></i></li><!--font awesome icon-->
-					<li><i class="fab fa-instagram-square"></i></li><!--font awesome icon-->
-					<li><i class="fab fa-youtube-square"></i></li><!--font awesome icon-->
+					<li><i class="fab fa-facebook-square fa-3x"></i></li><!--font awesome icon-->
+					<li><i class="fab fa-twitter-square fa-3x"></i></li><!--font awesome icon-->
+					<li><i class="fab fa-instagram-square fa-3x"></i></li><!--font awesome icon-->
+					<li><i class="fab fa-youtube-square fa-3x"></i></li><!--font awesome icon-->
 				</ul>
 			</div>
 			<section class="col-sm-4 col-md-6 col-lg-3">
@@ -279,13 +280,12 @@
 					<li><a href="#">free adobe XD</a></li>
 					<li><a href="#">tutorials</a></li>
 					<li><a href="#">about</a></li>
-					<li><a href="#">about</a></li>
 					<li><a href="#">contact</a></li>
 				</ul>
 			</section>
-			<section id="address" class="col-sm-4 col-md-6 col-lg-3">
+			<section  class="col-sm-4 col-md-6 col-lg-3">
 				<h4>Address</h4>
-				<address>
+				<address id="address">
 					<p><a href="https://www.google.com/maps">200, D-Block, Green<br>lane USA</a></p>
 					<p><a href="tel:+103674678934">+10 367 467 8934</a></p>
 					<p><a href="mailto:edumark@contact.com">edumark@contact.com</a></p>
